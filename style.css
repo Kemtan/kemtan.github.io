@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* border: 2px solid red;    */
+    height: 300vh;
+    width: 40vw;
+
+}
+
+/* .navbar{
+    border: solid;
+    color: blue;
+    height: 10vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    border: 2px solid;
+    margin: 1em;
+    font-size: 1.3em;
+} */
+
+.box{
+    /* border: 2px solid purple; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    /* border: 2px solid green; */
+    text-align: center;
+}
+.main .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+    margin: 1vh;
+}
+.kemtan{
+    font-family: Cause;
+    font-size: 3em;
+}
+
+.about{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero{
+    /* border: 2px solid green; */
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project{
+    border: 2px solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
