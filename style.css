@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+@media screen and (min-width: 480px) {
+    body {
+        /* background-color: lightgreen; */
+    }
+    .container{
+        width: 40vw;
+    }
+    .box{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        /* background-color: lightblue; */
+    }
+    .container{
+        width: 60vw;
+    }
+    .box{
+        height: 100vh;
+    }
+    .box:last-child{
+        height: auto;
+    }
+}
 
 body{
     margin: 0;
@@ -10,13 +35,10 @@ body{
 .container{
     /* border: 2px solid red;    */
     height: 300vh;
-    width: 40vw;
-
 }
 
 .box{
-    /* border: 2px solid purple; */
-    height: 100vh;
+    border: 2px solid purple;
     width: 100%;
     display: flex;
     align-items: center;
