@@ -14,22 +14,6 @@ body{
 
 }
 
-/* .navbar{
-    border: solid;
-    color: blue;
-    height: 10vh;
-    width: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar a{
-    border: 2px solid;
-    margin: 1em;
-    font-size: 1.3em;
-} */
-
 .box{
     /* border: 2px solid purple; */
     height: 100vh;
